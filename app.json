@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/call/callMe",
+    "pages/products/products",
+    "pages/about/aboutMe"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "划水",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/menu.png",
+        "iconPath": "images/menu.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/menu.png",
+        "iconPath": "images/menu.png",
+        "pagePath": "pages/call/callMe",
+        "text": "产品中心"
+      },
+      {
+        "selectedIconPath": "images/menu.png",
+        "iconPath": "images/menu.png",
+        "pagePath": "pages/products/products",
+        "text": "电话"
+      },
+      {
+        "selectedIconPath": "images/menu.png",
+        "iconPath": "images/menu.png",
+        "pagePath": "pages/call/callMe",
+        "text": "分享"
+      }
+    ]
+  }
+}
