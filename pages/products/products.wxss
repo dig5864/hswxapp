@@ -1,1 +1,53 @@
 /* pages/products/products.wxss */
+
+/**index.wxss**/
+
+.item_image {
+  display: flex;
+  width: 350rpx;
+  height: 250rpx;
+  margin: 0 15rpx;
+}
+
+.title_image {
+  height:250px;
+  width:100%
+}
+
+.layout_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.layout_vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_one_image {
+  height: 250px;
+  margin-bottom: 10rpx;
+}
+
+.section_two_images {
+  margin-bottom: 10rpx;
+}
+
+.page-body {
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  height: 100%;
+}
+
+.page-section {
+  width: 100%;
+  margin-bottom: 0rpx;
+}
+
+.page-section-spacing {
+  box-sizing: border-box;
+  padding: 0rpx;
+}

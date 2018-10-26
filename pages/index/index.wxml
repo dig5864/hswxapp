@@ -15,10 +15,10 @@
 
     <!--导航的几个图标-->
     <view class="page-section layout_horizontal">
-      <image class='navi_img' src='../../images/phone.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/phone.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/phone.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/phone.png' mode='aspectFit' />
+      <image class='navi_img' src='../../images/about.png' mode='aspectFit' />
+      <image class='navi_img' src='../../images/menu.png' mode='aspectFit' />
+      <image class='navi_img' src='../../images/contact.png' mode='aspectFit' />
+      <image class='navi_img' src='../../images/map.png' mode='aspectFit' />
     </view>
 
     <!--公司简介-->

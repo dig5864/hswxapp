@@ -1,2 +1,19 @@
 <!--pages/products/products.wxml-->
-<text>pages/products/products.wxml</text>
+<view class='layout_vertical page-body'>
+  <view class='section_one_image'>
+    <image class='title_image' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+  </view>
+  <!--产品简介-->
+  <view class='layout_horizontal section_two_images'>
+    <image catchtap='bindViewTap' class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+    <image class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+  </view>
+  <view class='layout_horizontal section_two_images'>
+    <image catchtap='bindViewTap' class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+    <image class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+  </view>
+  <view class='layout_horizontal section_two_images'>
+    <image catchtap='bindViewTap' class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+    <image class='item_image' src='../images/kuppahime.png' mode='aspectFill' />
+  </view>
+</view>

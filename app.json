@@ -14,30 +14,30 @@
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#0000ff",
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath": "images/menu.png",
-        "iconPath": "images/menu.png",
+        "selectedIconPath": "images/navi_icon/home_selected.png",
+        "iconPath": "images/navi_icon/home.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "selectedIconPath": "images/menu.png",
-        "iconPath": "images/menu.png",
-        "pagePath": "pages/call/callMe",
+        "selectedIconPath": "images/navi_icon/menu_selected.png",
+        "iconPath": "images/navi_icon/menu.png",
+        "pagePath": "pages/products/products",
         "text": "产品中心"
       },
       {
-        "selectedIconPath": "images/menu.png",
-        "iconPath": "images/menu.png",
-        "pagePath": "pages/products/products",
+        "selectedIconPath": "images/navi_icon/phone_selected.png",
+        "iconPath": "images/navi_icon/phone.png",
+        "pagePath": "pages/call/callMe",
         "text": "电话"
       },
       {
-        "selectedIconPath": "images/menu.png",
-        "iconPath": "images/menu.png",
+        "selectedIconPath": "images/navi_icon/share_selected.png",
+        "iconPath": "images/navi_icon/share.png",
         "pagePath": "pages/call/callMe",
         "text": "分享"
       }

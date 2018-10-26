@@ -1,34 +1,32 @@
 Page({
 
   data: {
-    tel: 0
+    tel: 0,
+    telNumber: '123456789'
   },
 
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
-  onShow: function () {
-    if (!this.data.tel > 0) {
+  onShow: function() {
+    if (this.data.tel == 0)
       wx.makePhoneCall({
-        phoneNumber: '123456789',
-        success: () => {
-          setTimeout(() => {
-            this.setData({
-              tel: 0
-            })
-          }, 500);
+        phoneNumber: this.data.telNumber,
+        complete: () => {
+          this.setData({
+            tel: 1
+          });
         }
       })
-      this.setData({
-        tel: 1
-      })
-    }
   },
 
-  onHide: function () {
+  onHide: function() {
     wx.switchTab({
       url: '../index/index'
+    })
+    this.setData({
+      tel: 0
     })
   }
 
