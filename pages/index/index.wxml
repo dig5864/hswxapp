@@ -3,7 +3,7 @@
   <view class="page-body">
 
     <!--滚动图片-->
-    <view class="page-section swiper">
+    <view class="page-section">
       <swiper indicator-dots="false" autoplay="true" circular="true" interval="5000" duration="500" previous-margin="1px" next-margin="1px">
         <block wx:for="{{imgUrls}}" wx:key="*this">
           <swiper-item>
@@ -14,7 +14,7 @@
     </view>
 
     <!--导航的几个图标-->
-    <view class="page-section layout_horizontal">
+    <view class="page-section layout_horizontal section_navi_icon">
       <image class='navi_img' src='../../images/about.png' mode='aspectFit' />
       <image class='navi_img' src='../../images/menu.png' mode='aspectFit' />
       <image class='navi_img' src='../../images/contact.png' mode='aspectFit' />
@@ -26,8 +26,11 @@
       <image class='title_img' src="../../images/title_introduce.png" mode="aspectFit"/>
     </view>
     
-    <view bindtap='gotoToProductView' class='page-section page-section-spacing text_intro'>
-     1234567890abcdefghjkl;1234567890abcdefghjkl;
+    <view bindtap='gotoToProductView' class='page-section page-section-spacing'>
+    <text class='text_intro'>
+    广西桂林龙胜县华宇化工有限公司是一家专业从事非金属矿粉科研、生产、销售的民营高科技企业。生产基地位于风景秀丽,滑石矿产资源储量、品质都驰名中外的广西桂林。产品广泛应用于....
+    </text>
+    <view class='page-section page-section-spaceing' style='margin-top:20rpx; margin-left:80%;'><text style='line-height:10rpx;'>详细>></text></view>
     </view>
     <!--产品简介-->
     <view class="page-section page-section-spacing">

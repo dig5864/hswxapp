@@ -1,2 +1,18 @@
 <!--pages/about/aboutMe.wxml-->
-<text>pages/about/aboutMe.wxml</text>
+<view class="section">
+  <view class="page-body">
+
+    <!--滚动图片-->
+    <view class="page-section">
+      <swiper indicator-dots="false" autoplay="true" circular="true" interval="5000" duration="500" previous-margin="1px" next-margin="1px">
+        <block wx:for="{{imgUrls}}" wx:key="*this">
+          <swiper-item>
+            <image class="swiper-item" src='{{ item }}' />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    </view>
+    </view>
+<text>    广西桂林龙胜县华宇化工有限公司是一家专业从事非金属矿粉科研、生产、销售的民营高科技企业。生产基地位于风景秀丽,滑石矿产资源储量、品质都驰名中外的广西桂林。产品广泛应用于涂料、塑料、化工等行业。经过数年的开拓和发展,公司已和众多的知名企业建立了长期的稳定合作关系。
+      本公司秉承"顾客至.上,锐意进取”的经营理念,坚持"客户第一”的原则为广大客户提供优质的服务。期待与广大的国内外客户真诚合作、携手共进</text>
