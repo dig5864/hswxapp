@@ -9,7 +9,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "划水",
+    "navigationBarTitleText": "广西龙胜华宇化工有限公司",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -34,12 +34,6 @@
         "iconPath": "images/navi_icon/phone.png",
         "pagePath": "pages/call/callMe",
         "text": "电话"
-      },
-      {
-        "selectedIconPath": "images/navi_icon/share_selected.png",
-        "iconPath": "images/navi_icon/share.png",
-        "pagePath": "pages/call/callMe",
-        "text": "分享"
       }
     ]
   }

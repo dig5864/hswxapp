@@ -14,25 +14,37 @@ Page({
     hasUserInfo: false,
   },
 
-  onShareAppMessage: function (res) {
-  },
+  onShareAppMessage: function(res) {},
 
   //事件处理函数
   bindViewTap: function() {
-    this.setData({motto: 'xx'})
+    this.setData({
+      motto: 'xx'
+    })
     wx.showShareMenu({
-      
+
     })
   },
-  
-  gotoToProductView: function() {
+
+  gotoToAboutView: function() {
     wx.navigateTo({
       url: '../about/aboutMe',
     })
   },
 
-  onLoad: function () {
+  gotoToProductView: function() {
+    wx.switchTab({
+      url: '../products/products',
+    })
   },
+
+  gotoCallView: function() {
+    wx.switchTab({
+      url: '../call/callMe',
+    })
+  },
+
+  onLoad: function() {},
 
   getUserInfo: function(e) {
     console.log(e)
@@ -40,6 +52,15 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+
+  openMap: function() {
+    wx.openLocation({
+      latitude: 29.291368,
+      longitude: 119.987891,
+      scale: 18,
+      address: '浙江省金华市义乌市西城路'
     })
   }
 })

@@ -2,7 +2,7 @@ Page({
 
   data: {
     tel: 0,
-    telNumber: '123456789'
+    telNumber: '15657955066'
   },
 
   onLoad: function(options) {

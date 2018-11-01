@@ -15,22 +15,39 @@
 
     <!--导航的几个图标-->
     <view class="page-section layout_horizontal section_navi_icon">
-      <image class='navi_img' src='../../images/about.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/menu.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/contact.png' mode='aspectFit' />
-      <image class='navi_img' src='../../images/map.png' mode='aspectFit' />
+
+      <view class='layout_vertical_navi'>
+        <image class='navi_img' src='../../images/about.png' bindtap='gotoToAboutView' mode='aspectFit' />
+        <text class=' navi_text'>公司介绍</text>
+      </view>
+      <view class='layout_vertical_navi'>
+        <image class='navi_img' src='../../images/menu.png' bindtap='gotoToProductView' mode='aspectFit' />
+        <text class=' navi_text'>产品中心</text>
+      </view>
+      <view class='layout_vertical_navi'>
+        <image class='navi_img' src='../../images/contact.png' bindtap='gotoCallView' mode='aspectFit' />
+        <text class=' navi_text'>联系我们</text>
+      </view>
+      <view class='layout_vertical_navi'>
+        <image class='navi_img' src='../../images/map.png' bindtap='openMap' mode='aspectFit' />
+        <text class=' navi_text'>地图导航</text>
+      </view>
     </view>
 
     <!--公司简介-->
     <view style='display:flex;justify-content: center'>
-      <image class='title_img' src="../../images/title_introduce.png" mode="aspectFit"/>
+      <image class='title_img' src="../../images/title_introduce.png" mode="aspectFit" />
     </view>
-    
-    <view bindtap='gotoToProductView' class='page-section page-section-spacing'>
-    <text class='text_intro'>
+
+    <view bindtap='gotoToAboutView' class='page-section page-section-spacing'>
+
+      <text class='text_intro'>
     广西桂林龙胜县华宇化工有限公司是一家专业从事非金属矿粉科研、生产、销售的民营高科技企业。生产基地位于风景秀丽,滑石矿产资源储量、品质都驰名中外的广西桂林。产品广泛应用于....
     </text>
-    <view class='page-section page-section-spaceing' style='margin-top:20rpx; margin-left:80%;'><text style='line-height:10rpx;'>详细>></text></view>
+      <view class='page-section page-section-spaceing' style='margin-top:20rpx; margin-left:80%;'>
+        <text style='line-height:10rpx;'>详细>></text>
+      </view>
+
     </view>
     <!--产品简介-->
     <view class="page-section page-section-spacing">
@@ -62,5 +79,14 @@
       </view>
     </view>
 
+    <view style='display:flex;justify-content: center'>
+      <image class='title_img' src="../../images/title_contact.png" mode="aspectFit" />
+    </view>
+    <view class='page-section page-section-spacing'>
+      <text>广西龙胜华宇化工有限公司\n\n</text>
+      <text>联系人：伍志卫\n\n</text>
+      <text>电话：15657955066\n</text>
+
+    </view>
   </view>
 </view>
